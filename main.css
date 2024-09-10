@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.valid {
+    color: green;
+}
+.invalid {
+    color: red;
+}
+
+#recado {
+    font-size: small; 
+}
