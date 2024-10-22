@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fa5757;
+}
+
+header {
+    background-color: #f33838;
+    padding: 25px 0;
+    display: flex;
+    border-bottom: 16px solid #412121;
+    justify-content: center;
+    text-transform: uppercase;
+    border-style: none;
+}
+
+footer {
+    background: #f33838;
+    width: 100%;
+    height:auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align:center;
+    padding: 10px;
+}
+
+input {
+    padding: 0;
+
+}
+
+ul li{
+    text-align: center;
+    list-style-position:inside;
+    text-decoration: line-through;
+    text-decoration: none;
+    padding: 5px;
+}
+
+form {
+    text-align: center;
+    padding: 15px;
+}
+
+form button {
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: black;
+}
+
+.botao-excluir {
+    background-color: yellow;
+    border: none;
+    margin-left: 10px;
+}
